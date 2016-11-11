@@ -1,0 +1,63 @@
+* {
+    /*outline: 1px solid blue;*/
+}
+body {
+    font-family: sans-serif;
+}
+/*-----------------------------------------------------------------------------------------------------HEADER*/
+header .row {
+    background: linear-gradient(to right,#fff,#c9c9c9)
+}
+header img {
+    height: 50px;
+    width: 350px;
+}
+header span {
+    position: relative;
+    left:70px;
+    bottom:20px;
+    color:#bfbfbf;
+    font-size:8px;
+}
+header .search-box input {
+    padding:4px; /*Para que el texto se centre, no utilizar height porque se deforma*/
+    font-size:15px;
+    margin:5px 50px; 
+    width:170px;
+}
+header .search-box .fa-search {
+    margin-left: -73px;
+    color:#bfbfbf;
+}
+
+/*-----------------------------------------------------------------------------------------------------END-HEADER*/
+
+/*---------------------------------------------------------------------------------------------------------HERO--*/ 
+.hero h1 {
+    padding:10px;
+    font-size: 35px;
+    border-bottom: 1px solid #c6c6c6;
+    width:300px;
+    padding-left:0;
+    font-stretch:extra-expanded;
+}
+.hero {
+    color:#c6c6c6;
+}
+.hero .banner {
+    background:#333 url(../img/banner.jpg) no-repeat;
+    background-size:contain;
+}
+.hero .img-info {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+/*------------------------------------------------------------------------------------------------------ESTRENOS*/
+.estrenos img {
+    width:100%;
+}
+
+/*----------------------------------------------------------------------------------------------------CARTELERA*/
+.cartelera img {
+    width: 100%;
+}
