@@ -34,39 +34,47 @@
 <section class="hero">
     <div class="container-fluid">
         <div class="row banner">
-            <div class="col-8">
+            <div class="col-8 icono">
                 <img src="img/icono.jpg" width="100" alt="">  
             </div>
             <div class="col-4 info">
                 <h1>BIG HERO 6</h1>
-                <span>All ages</span> Don Hall, Chris Willams <br>
+                <div class="small-info">
+                <span>All age</span><p class="don">Don Hall, Chris Willams</p><br>
                 <table>
                     <tr><!--table row, fila---<th> para encabezados----->
                        <th>Ratting</th>
-                       <td>8,5/10</td>
+                       <td>:8,5/10</td>
                     </tr>
                     <tr>
                         <th>Genre</th>
-                        <td>Animation, Action, Comedy</td>
+                        <td>:Animation, Action, Comedy</td>
                     </tr>
                     <tr>
                         <th>Release</th>
-                        <td>7 November 2014</td>
+                        <td>:7 November 2014</td>
                     </tr>
                 </table>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt repudiandae fugit, ratione? Aspernatur commodi quasi quaerat expedita, molestiae quae dolores! Est laboriosam error ex! Aliquam placeat, enim eaque quis!</p>
-                
-                <input type="button" value="Watch trailer"> <br>
-                <a href="#"><button>Book ticket</button></a>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga incidunt repudiandae fugit, ratione? Aspernatur commodi quasi quaerat expedita, molestiae quae dolores! Est laboriosam error ex! Aliquam placeat, enim eaque quis!</p>
+                <!--<input type="button" value="Watch trailer"> <br>-->
+                <a class="watchbutton" href="#">
+				    <img src="img/youtubebutton.png">
+				        &nbsp; WATCH TRAILER
+				</a>
+				<a class="bookbutton" href="#">
+          			<img src="img/bookticketbutton.png">
+				        &nbsp; BOOK TICKET
+					</a>
+                </div>
+               </div>
             </div>
         </div>
-    </div>
 </section>
            
-    <!--------------------------------------------------------------------------------------------------------------------------------ESTRENOS-->
+    <!----------------------------------------------------------------------------------------------------------------------------ESTRENOS-->
 <section class="estrenos">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row yellow">
             <div class="col-2"><img src="img/imagen1.jpg" alt=""></div>
             <div class="col-2"><img src="img/imagen2.jpg" alt=""></div>
             <div class="col-2"><img src="img/imagen3.jpg" alt=""></div>
@@ -78,16 +86,24 @@
 </section>
      <!-------------------------------------------------------------------------------------------------------------------------------TRAILER-->
 <section class="trailer">
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HSzx-zryEgM?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
-    
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/HSzx-zryEgM?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>    
 </section>          
     <!-------------------------------------------------------------------------------------------------------------------------------CONTENIDO-->
 <section class="contenido">
     <div class="container-fluid">
        <div class="row">
           <div class="col-6">
-              <h1><small>Don´t be late,</small><br>
-             Book yout ticket now!</h1>
+              <h1><small class="grey first">Don´t be late,</small><br>
+             Book yout ticket now! 
+             <br>
+             <small class="grey second">Easy, simple & fast</small></h1>            
+             <a class="bookbutton2" href="#">
+          			<img src="img/bookticketbutton.png">&nbsp; BOOK TICKET
+					</a>
+             <div class="discount">
+             <small>Get Discount up to <b>10%</b> if you are a menmber!</small>
+             </div>
+             
               
           </div>
           <div class="col-6">

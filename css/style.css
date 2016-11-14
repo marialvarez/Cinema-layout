@@ -1,5 +1,5 @@
 * {
-    /*outline: 1px solid blue;*/
+    outline: 1px solid blue;
 }
 body {
     font-family: sans-serif;
@@ -34,30 +34,132 @@ header .search-box .fa-search {
 
 /*---------------------------------------------------------------------------------------------------------HERO--*/ 
 .hero h1 {
-    padding:10px;
+    padding:10px 0px;
     font-size: 35px;
     border-bottom: 1px solid #c6c6c6;
-    width:300px;
-    padding-left:0;
+    width:340px;
+    margin-left:15px;
     font-stretch:extra-expanded;
 }
 .hero {
     color:#c6c6c6;
 }
 .hero .banner {
-    background:#333 url(../img/banner.jpg) no-repeat;
-    background-size:contain;
+    background:#383838 url(../img/banner.jpg) no-repeat;
+    background-size:850px 480px;
 }
-.hero .img-info {
+.hero .info {
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-left: 0px;
+}
+.hero table {
+    line-height: 30px;
+    width: 350px;
+    margin-top: 20px;
+}
+.hero table th {
+    text-align: left;
+    width: 100px;
+}
+.hero table td {
+    width: 220px;
+}
+.hero .small-info {
+    font-size: 12px;
+}
+.hero .small-info span {
+	border: 2px solid #7EB36A;
+	border-radius: 5px;
+	padding: 7px;
+	color: #7EB36A; 
+}
+.hero .small-info .don {
+    display: inline-block;
+    margin-left: 15px;
+}
+.hero .small-info span,p {
+    margin-top: 25px;
+}
+.hero .small-info .text {
+    width: 330px;
+}
+.hero .icono img{
+    width: 60px;
+    position: relative;
+    left:230px;
+    top:215px;
+}
+.watchbutton{
+	background-color: rgb(223, 182, 54);
+}
+.bookbutton{
+	background-color: rgb(187, 123, 41);
+}
+.watchbutton, .bookbutton{
+	width: 170px;
+	border-radius: 5px;
+	color: white;
+	padding: 8px;
+	margin: 15px 0px;
+	display: block;
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+}
+.watchbutton img, .bookbutton img{
+	width: 16px;
+    height: 16px;
 }
 /*------------------------------------------------------------------------------------------------------ESTRENOS*/
 .estrenos img {
-    width:100%;
+    width:160px;
+    height: 180px; 
+}
+.estrenos .yellow {
+    background-color: rgb(223, 182, 54);
+    padding: 20px 50px;
 }
 
 /*----------------------------------------------------------------------------------------------------CARTELERA*/
 .cartelera img {
     width: 100%;
+}
+/*----------------------------------------------------------------------------------------------------CONTENIDO*/
+.contenido .discount {
+    color: #C79355;
+}
+.contenido .grey{
+    color:#c3c3c3;
+    font-size: 17px;
+}
+.contenido .grey{
+    color:#c3c3c3;
+    font-size: 17px;
+    line-height: 35px;
+}
+.contenido .first{
+    font-weight:600;
+}
+.contenido .second{
+    font-weight:lighter;
+}
+.contenido h1 {
+    padding:30px 0px 0px 0px;
+}
+.contenido .bookbutton2 {
+    background-color: rgb(187, 123, 41); 
+    width: 170px;
+	border-radius: 5px;
+	color: white;
+	padding: 15px;
+	margin: 15px 0px;
+	display: block;
+	font-size: 13px;
+    
+}
+.contenido .bookbutton2 img {
+    width: 16px;
+    height: 16px;
 }
