@@ -1,11 +1,11 @@
 * {
-    outline: 1px solid blue;
+    /*outline: 1px solid blue;*/
 }
 body {
     font-family: sans-serif;
 }
 /*-----------------------------------------------------------------------------------------------------HEADER*/
-header .row {
+header {
     background: linear-gradient(to right,#fff,#c9c9c9)
 }
 header img {
@@ -30,8 +30,6 @@ header .search-box .fa-search {
     color:#bfbfbf;
 }
 
-/*-----------------------------------------------------------------------------------------------------END-HEADER*/
-
 /*---------------------------------------------------------------------------------------------------------HERO--*/ 
 .hero h1 {
     padding:10px 0px;
@@ -43,6 +41,7 @@ header .search-box .fa-search {
 }
 .hero {
     color:#c6c6c6;
+    background:linear-gradient(to right,white,white,#383838,#383838);
 }
 .hero .banner {
     background:#383838 url(../img/banner.jpg) no-repeat;
@@ -118,21 +117,15 @@ a{
     height: 180px; 
 }
 .estrenos .yellow {
-    background-color: rgb(223, 182, 54);
     padding: 20px 50px;
 }
-
-/*----------------------------------------------------------------------------------------------------CARTELERA*/
-.cartelera img {
-    width: 100%;
+.estrenos {
+    background-color: rgb(223, 182, 54);
 }
+
 /*----------------------------------------------------------------------------------------------------CONTENIDO*/
 .contenido .discount {
     color: #C79355;
-}
-.contenido .grey{
-    color:#c3c3c3;
-    font-size: 17px;
 }
 .contenido .grey{
     color:#c3c3c3;
@@ -157,9 +150,79 @@ a{
 	margin: 15px 0px;
 	display: block;
 	font-size: 13px;
-    
 }
 .contenido .bookbutton2 img {
     width: 16px;
     height: 16px;
 }
+.contenido .promo { 
+    margin-left: 80px;
+    padding: 0px;
+    width: 400px;
+}
+.contenido .news h3,.fecha,p {
+    color:#c3c3c3;
+    list-style: none;
+}
+.contenido .news h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.contenido .news ul {
+    list-style: none;
+    margin-bottom: 35px;
+}
+.contenido .news li {
+    border-bottom: 1px solid #c3c3c3;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.contenido .news p {
+    margin-top: 0px;
+    font-size: 15px;
+}
+.contenido .news {
+    margin-top: 35px;
+    margin-right: 80px;
+    margin-left:200px;
+    padding: 0px;
+    height: 450px;
+    width: 400px;
+}
+.contenido .more {
+    color: #e89f48;
+    font-weight: bold;
+}
+/*----------------------------------------------------------------------------------------------------CARTELERA*/
+.cartelera img {
+    width: 220px;
+    height: 240px;
+}
+.cartelera {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+/*----------------------------------------------------------------------------------------------------FOOTER*/
+footer {
+    background: #efefef;
+    padding-top: 30px;
+    font-size: 15px;
+}
+footer h4 {
+    color:#c3c3c3;
+}
+footer p {
+    margin-top: 0px;
+}
+footer span {
+    font-weight: 700px;
+    font-size: 18px;
+}
+footer .com {
+    font-weight: bold;
+    font-size: 12px;
+}
+
